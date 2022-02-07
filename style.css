@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: roboto, sans-serif;
+}
+
+header {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+ul {
+  margin-right: 50px;
+  margin-left: auto;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap : 8px;
+}
