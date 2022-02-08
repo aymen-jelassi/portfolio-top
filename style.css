@@ -94,3 +94,59 @@ a.button1 {
 a.button1:hover {
 	background-color: #4095c6;
 }
+
+#welcome {
+	text-align: center;
+	margin: 20px;
+	color: #32435a;
+}
+
+.articles {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.article {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin: 20px;
+	border: 1px solid #1f2937;
+}
+
+.minicont h2 {
+	margin: 15px;
+	text-align: center;
+}
+
+.minicont p {
+	margin: 15px;
+	color: #aaa0a0;
+	text-align: center;
+}
+
+.images {
+	width: 298px;
+	height: 198.344px;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #e5e7eb;
+}
+
+.quote p {
+	font-family: Roboto;
+	font-size: 30px;
+	padding: 60px;
+	color: #1f2937;
+}
+
+.author {
+	align-self: flex-end;
+}
